@@ -8,7 +8,7 @@ import RadioCards from "../components/RadioCards";
 export default function Example() {
   return (
     <Fragment>
-      <div className="h-screen bg-gray-100 select-none overflow-y-scroll">
+      <div className="h-screen bg-gray-100 select-none overflow-y-scroll scroll-smooth">
         <div className="flex px-2 sm:px-4 py-6 justify-center sm:items-center h-auto sm:h-screen">
           <div className="bg-white font-inter rounded-lg shadow-sm">
             {/* Heading  */}

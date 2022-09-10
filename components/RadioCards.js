@@ -49,7 +49,7 @@ export default function RadioCards() {
             value={frequencyList}
             className={({ checked, active }) =>
               classNames(
-                checked ? "border-transparent bg-gray-50" : "border-gray-300",
+                checked ? "border-transparent bg-blue-50" : "border-gray-300",
                 active ? "ring-1 ring-gray-800" : "",
                 "relative bg-white border rounded-lg shadow-sm p-4 flex cursor-pointer focus:outline-none"
               )
