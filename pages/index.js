@@ -39,7 +39,7 @@ export default function Example() {
                 {/* Tabs  */}
                 <Tabs />
 
-                {/* Option 1 */}
+                {/* Option 1 (Switch) */}
                 <div className="py-6 flex justify-between items-center border-b border-gray-200">
                   <div className="flex flex-col">
                     <h3 className="text-lg font-medium text-gray-800">
