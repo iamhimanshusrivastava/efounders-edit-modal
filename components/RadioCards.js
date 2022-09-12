@@ -23,7 +23,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function RadioCards() {
+const RadioCards = () => {
   const [selectedfrequencyLists, setSelectedfrequencyLists] = useState(
     frequencyLists[0]
   );
@@ -104,4 +104,6 @@ export default function RadioCards() {
       </div>
     </RadioGroup>
   );
-}
+};
+
+export default RadioCards;
